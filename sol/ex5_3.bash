@@ -4,13 +4,13 @@
 # if a file -> print its content
 #
 
-filename=$1
+FILENAME=$1
 
-if [[ -f $filename ]]; then
-    cat $filename
-elif [[ -d $filename ]]; then
-    ls $filename
+if [[ -f $FILENAME ]]; then
+    cat $FILENAME
+elif [[ -d $FILENAME ]]; then
+    ls $FILENAME
 else
-    echo "$filename is neither a file nor a directory"
+    echo "$FILENAME is neither a file nor a directory"
 fi
 
