@@ -7,9 +7,9 @@
 FILENAME=$1
 
 if [[ -f $FILENAME ]]; then
-    cat $FILENAME
+    cat "$FILENAME"
 elif [[ -d $FILENAME ]]; then
-    ls $FILENAME
+    ls "$FILENAME"
 else
     echo "$FILENAME is neither a file nor a directory"
 fi
