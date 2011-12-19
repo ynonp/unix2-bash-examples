@@ -1,0 +1,12 @@
+.
+├── bin
+│   ├── addx.sh
+│   ├── last_modified.sh
+│   └── reverse.sh
+├── hello\ world
+├── man
+│   └── man1
+│       └── inform.1
+└── man_tree.txt
+
+3 directories, 6 files
