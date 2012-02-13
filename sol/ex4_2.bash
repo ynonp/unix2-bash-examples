@@ -5,7 +5,11 @@
 # after time seconds echo mission
 #
 
-read -p "How long to wait ?" time
-read -p "What to do ? " task
+read -p "How long to wait ?" TIME
+read -p "What to do ? " TASK
 
-( sleep $time ; echo $task ) &
+# Grouping the two commands allows sending
+# them both to background and create a
+# the reminder illusion
+
+( sleep $TIME ; echo $TASK ) &

@@ -3,6 +3,8 @@
 # reverse all input arguments
 # Exercise 4.1
 #
+# Positional arguments are named $1 $2 $3 ...
+#
 
 echo $5 $4 $3 $2 $1
 
